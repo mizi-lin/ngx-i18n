@@ -52,7 +52,9 @@ export class $$I18nServices {
 
             this.locale_promise = this.$http.get(path)
             .map((res: Response) => {
-                let body = res.json();
+                // 多重处理, 防止用户拦截器先行使用 map 处理过数据
+
+                let body =  (res.json && mu.isFunction(res.json)) ? res.json() : res;
                 return body || {};
             })
             .toPromise();

@@ -1,6 +1,6 @@
 {
     "name": "ngx-i18n",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "description": "Angular4.x i18n",
     "scripts": {

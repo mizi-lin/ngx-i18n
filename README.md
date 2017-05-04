@@ -8,7 +8,16 @@ An Angular 4 i18n
 
 * [Angular](https://angular.io)
 
-###
+### module
+```javascript
+imports: [
+    I18nModule
+    // or 
+    // I18nModule.forRoot()
+]
+````
+
+### Component
 ```javascript
 constructor(private $$I18nServices: $$I18nServices) {
     $$I18nServices.setConfig({
