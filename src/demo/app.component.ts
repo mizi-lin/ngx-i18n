@@ -29,6 +29,7 @@ import * as mu from 'mzmu';
     <div [i18n]="'Mizi'">HELLO_USER</div>
     <div [i18n]="['Mizi', 'i18n']">WELCOME_1</div>
     <div [i18n]="[['Mizi', 'i18n'], 'Shanghai']">WELCOME_1</div>
+    <div [i18n]="['2017-05-05', this.userInfo]">WELCOME._3</div>
 </div>
   `,
     providers: [
