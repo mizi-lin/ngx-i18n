@@ -1,0 +1,10 @@
+{
+    "HELLO_WORLD": "你好, 世间!!!",
+    "HELLO_USER": "你好, {0}!!!",
+    "WELCOME_1": "欢迎 {0} 回来 {1}, {0} 最后一次登录在 {2}",
+    "WELCOME_2": "欢迎 {name} 回来 {site}, {name} 最后一次登录在 {address.province}",
+    "WELCOME_3": "欢迎 {name} 回来 {site}, {name} 最后一次登录在 {address.province} {0}",
+    "WELCOME": {
+        "_3": "欢迎 {name} 回来 {site}, {name} 最后一次登录在 {address.province} {0}"
+    }
+}

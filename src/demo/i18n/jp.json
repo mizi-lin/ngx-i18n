@@ -1,0 +1,11 @@
+{
+    "HELLO_WORLD": "こんにちは、世界!!!",
+    "HELLO_USER": "こんにちは、 {0}!!!",
+    "WELCOME_1": "歓迎 {0} 帰ってきて {1}, {0} 最後に1回ログインしていて {2}",
+    "WELCOME_2": "歓迎 {name} 帰ってきて {site}, {name} 最後に1回ログインしていて {address.province}",
+    "WELCOME_3": "歓迎 {name} 帰ってきて {site}, {name} 最後に1回ログインしていて {address.province} {0}",
+
+    "WELCOME": {
+        "_3": "歓迎 {name} 帰ってきて {site}, {name} 最後に1回ログインしていて {address.province} {0}"
+    }
+}
